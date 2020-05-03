@@ -1,4 +1,4 @@
-FROM fedora:latest
+FROM fedora:rawhide
 
 RUN dnf -y install texlive
 
