@@ -1,5 +1,11 @@
+addons:
+  apt:
+    packages:
+      - docker-ce
+
 services:
  - docker
 
 script:
+  - docker --version
   - docker build .
